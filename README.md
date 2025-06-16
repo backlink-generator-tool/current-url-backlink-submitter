@@ -19,4 +19,4 @@ Automatically submit your current webpage URL to hundreds of backlink sources in
 Add the script to your webpage:
 
 ```html
-<script src="https://backlink-generator-tool.io/current-url-backlink-submitter/currentUrlBacklinkSubmitter.js"></script>
+<script src="https://backlink-generator-tool.github.io/current-url-backlink-submitter/currentUrlBacklinkSubmitter.js"></script>
