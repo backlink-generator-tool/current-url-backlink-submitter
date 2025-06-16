@@ -6,7 +6,7 @@
   ];
 
   // Try loading external JSON
-  fetch('https://backlink-generator-tool.io/current-url-backlink-submitter/backlink-templates.json
+  fetch('https://backlink-generator-tool.github.io/current-url-backlink-submitter/backlink-templates.json
 ')
     .then(response => {
       if (!response.ok) throw new Error("Network response was not ok");
