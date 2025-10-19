@@ -26,7 +26,7 @@
 
 
   //window.onload = function () {
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 1; i++) {
       const iframe = document.createElement('iframe');
       iframe.classList.add('hidden-iframe', 'ping-me-iframe');
       iframe.src = 'about:blank'; // Optional: Set source or leave blank
