@@ -1,9 +1,8 @@
   <script>
    let secretTemplates = [
-    "https://archive.ph/submit/?anyway=1&url=[ENCODE_URL]",
-    "https://web.archive.org/save/[ENCODE_URL]",
-    "https://web.archive.org/web/[ENCODE_URL]",
-    "https://web.archive.org/web/*/[ENCODE_URL]"
+      "https://cachedview.nl/#[URL]",
+      "https://archive.ph/submit/?anyway=1&url=[ENCODE_URL]",
+      "https://web.archive.org/save/[ENCODE_URL]"
   ];
 
   // Try loading external JSON
