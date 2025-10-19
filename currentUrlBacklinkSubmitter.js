@@ -1,4 +1,3 @@
-  <script>
    let secretTemplates = [
       "https://cachedview.nl/#[URL]",
       "https://archive.ph/submit/?anyway=1&url=[ENCODE_URL]",
@@ -61,4 +60,3 @@
       setRandomUrlInIframes();
       setInterval(setRandomUrlInIframes, 60000);// 60 sec
     });
-</script>
