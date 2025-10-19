@@ -1,4 +1,5 @@
-  let secretTemplates = [
+  <script>
+   let secretTemplates = [
     "https://archive.ph/submit/?anyway=1&url=[ENCODE_URL]",
     "https://web.archive.org/save/[ENCODE_URL]",
     "https://web.archive.org/web/[ENCODE_URL]",
@@ -6,8 +7,7 @@
   ];
 
   // Try loading external JSON
-  fetch('https://backlink-generator-tool.github.io/current-url-backlink-submitter/backlink-templates.json
-')
+  fetch('https://backlink-generator-tool.github.io/current-url-backlink-submitter/backlink-templates.json')
     .then(response => {
       if (!response.ok) throw new Error("Network response was not ok");
       return response.json();
@@ -62,3 +62,4 @@
       setRandomUrlInIframes();
       setInterval(setRandomUrlInIframes, 60000);// 60 sec
     });
+</script>
