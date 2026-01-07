@@ -2,5 +2,5 @@
       "https://cachedview.nl/#[URL]",
       "https://archive.ph/submit/?anyway=1&url=[ENCODE_URL]",
       "https://web.archive.org/save/[ENCODE_URL]",
-      "https://pingomatic.com/ping/?title=[ENCODE_DOMAIN]&blogurl=[ENCODE_URL]&rssurl=http%3A%2F%2F&chk_blogs=on&chk_feedburner=on&chk_tailrank=on&chk_superfeedr=on"
+      "https://pingomatic.com/ping/?title=[ENCODE_URL]&blogurl=[ENCODE_URL]&rssurl=http%3A%2F%2F&chk_blogs=on&chk_feedburner=on&chk_tailrank=on&chk_superfeedr=on"
 ]
